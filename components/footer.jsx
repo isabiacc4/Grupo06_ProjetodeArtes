@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer" >
             <div>
-                <img className="logo" src="logosenairedonda-removebg-preview.png"></img>
+                <img className="logo" src="logosenairedonda-removebg-preview.png"/>
             </div>
 
             <div>
@@ -22,9 +22,6 @@ function Footer() {
                 </div>
             </div>
         </div>
-
-
-
 
 
     )

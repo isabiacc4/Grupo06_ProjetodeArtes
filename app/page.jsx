@@ -3,6 +3,7 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 import { LoggedUserProvider } from "@/context/LoggedUserContext";
+import Footer from "../components/footer"
 
 function Home() {
   return (
@@ -118,7 +119,23 @@ function Home() {
       </div>
 
       <br />
-      <div>footer</div>
+      <div className={styles.footerhome} >
+            <div>
+                <img className={styles.logohome} src="logosenairedonda-removebg-preview.png"/>
+            </div>
+
+            <div>
+                <div className={styles.thome}>
+                    <h1>Desenvolvimento de Sistemas - SESI/SENAI </h1>
+                </div>
+                <br />
+                <div className={styles.botaohome}>
+                    <li>
+                        <Link href="/equipe">EQUIPE</Link>
+                    </li>
+                </div>
+            </div>
+        </div>
     </div>
 
     // </LoggedUserProvider>

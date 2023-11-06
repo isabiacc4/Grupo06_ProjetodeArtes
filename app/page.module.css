@@ -203,6 +203,38 @@
 
 }
 
+.logohome {
+  width: 52%;
+
+}
+
+.footerhome {
+  display: flex;
+  justify-content: space-around;
+  background-color: #140152;
+}
+
+.thome {
+  margin-left: -4%;
+  margin-top: 4%;
+  color: white;
+  padding: 2%;
+} 
+
+.botaohome{
+  background-color: #22007c;
+  color: aliceblue;
+  align-items: center;
+  list-style: none;
+  padding: 2%;
+  margin: 0% 47% 0% 40%;
+  border-radius: 5px;
+}
+
+.botaohome:hover {
+  background-color: #2c00bc;
+  
+}
 @media screen and (max-width: 800px) {
   .cabeçalho {
     font-size: 0.5rem;
