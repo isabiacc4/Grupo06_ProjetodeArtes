@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,3 +8,65 @@ a {
   text-decoration: none;
   color: inherit
 }
+
+
+.botao{
+  background-color: #140152;
+  color: aliceblue;
+  align-items: center;
+  list-style: none;
+  padding: 2%;
+  margin: 0% 47% 0% 40%;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: #2c00bc;
+  
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art {
+  margin-top: -1%;
+}
+
+.header {
+  border: solid #22007c;
+  background-color: #22007c;
+  color: white;
+  margin-left: -1%;
+  margin-right: -1%;
+  margin-top: -1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icone {
+  margin-left: -1700%;
+  font-size: x-large;
+}
+
+.logo {
+  width: 52%;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #22007c;
+}
+
+.t {
+  margin-left: -4%;
+  margin-top: 4%;
+  color: white;
+} 
