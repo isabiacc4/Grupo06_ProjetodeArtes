@@ -1,12 +1,9 @@
-import Header from "@/components/Header";
+import Footer from "@/components/footer";
 
-
-function Cabeçalho()  {
-
-
-    return (
-        <Header></Header>
+function Corpo(){
+    return(
+        <Footer></Footer>
     )
 }
 
-export default Cabeçalho;
+export default Corpo; 
