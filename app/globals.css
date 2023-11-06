@@ -126,8 +126,26 @@ a {
     padding-top: 2%;
     padding-bottom: 2%;
     font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icone{
-  color: antiquewhite;
+  margin-left: -1700%;
+  font-size: x-large;
+}
+
+.logo{
+  width: 52%;
+
+}
+
+.footer{
+  display: flex;
+}
+
+.t{
+  margin-left: -4%;
+    margin-top: 4%;
 }
