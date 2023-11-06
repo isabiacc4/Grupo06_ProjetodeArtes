@@ -215,10 +215,11 @@
 }
 
 .thome {
-  margin-left: -4%;
-  margin-top: 4%;
+  margin-left: -24%;
+  margin-top: 10%;
   color: white;
   padding: 2%;
+  font-size: small;
 } 
 
 .botaohome{
@@ -227,7 +228,7 @@
   align-items: center;
   list-style: none;
   padding: 2%;
-  margin: 0% 47% 0% 40%;
+  margin: 0% 65% 0% 20%;
   border-radius: 5px;
 }
 
