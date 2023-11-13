@@ -5,7 +5,7 @@ import Header from "@/components/header";
 import style from "@/app/rococo/rococo.module.css";
 import Link from "next/link";
 import ImageGallery from "@/components/rococo";
-import { useUserContext} from "@/context/user";
+import { useUserContext } from "@/context/user";
 
 
 const fotos1 = [
@@ -24,7 +24,7 @@ const fotos2 = [
 
 
 function Corpo() {
-    const {user} = useUserContext();
+    const { user } = useUserContext();
     return (
         <div>
             <Header></Header>
@@ -58,8 +58,8 @@ function Corpo() {
             <br></br>
             <br></br>
             <div>
-        <p className="mensagem">Olá, {user.name}! </p>
-      </div>
+                <p className="mensagem">Olá, {user.name}! </p>
+            </div>
 
 
 
@@ -90,9 +90,9 @@ function Corpo() {
 
 
 
-                
 
-               
+
+
 
                 <ImageGallery fotos={fotos1} />
 
@@ -107,17 +107,19 @@ function Corpo() {
 
                 <section className={style.video}>
                     <p>
-                        <iframe
-                            width="760"
-                            height="500"
-                            src="\rococo.mp4"
-                            title="Vídeo explicativo sobre o movimento artístico Romantismo"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                        <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/r_d0ycW_9zE?si=j8mqwf0CsYrIo94P" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+
+                        </iframe>
                     </p>
                 </section>
+
 
 
 
