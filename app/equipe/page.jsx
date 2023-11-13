@@ -51,7 +51,7 @@ function Equipe(){
                     <br/>
                     <br/>
                     <section className={style.texto}>
-                        <img className={style.img} src="/equipe.jpeg"></img>
+                        <Image className={style.img} src="/equipe.jpeg" alt="equipe" width={500} height={330}/>
                         <p className={style.text} align = "justify">Somos a equipe HAWKS de  Desenvolvimento de Sistemas, formado por 6 integrantes que se empenham para dar o melhor em todos os seus projetos. Esse é mais um trabalho desenvolvido com dedicação e carinho, esperamos que  todas as expectativas tenham sido superadas.</p>
                         <br/>
                         <br/>

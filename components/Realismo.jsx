@@ -1,5 +1,7 @@
 import { useState } from "react";
 import style from "../app/realismo/realismo.module.css"
+import Image from "next/image";
+
 
 const ImageGallery = (props) => {
     const [selectedImage, setSelectedImage] = useState(null);

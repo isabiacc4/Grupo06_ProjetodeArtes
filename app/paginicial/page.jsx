@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import styles from "./page.module.css";
+import Image from "next/image";
 // import { useUserContext } from '@/context/user';
 
 function Home() {
@@ -13,22 +14,7 @@ function Home() {
         <h1>MOVIMENTOS ARTÍSTICOS</h1>
       </div>
 
-      <br></br>
-      <div>{/* <p className="mensagem">Olá, {user.name}! </p> */}</div>
-      <br></br>
-      {/* <form className={styles.campo}>
-        <input
-          className={styles.digitacao}
-          name="nome"
-          placeholder="Informe seu nome"
-          required
-        />
-
-        <br />
-
-        <button className={styles.botao}>➜</button>
-      </form> */}
-
+     
       <br />
 
       <div className={styles.priparallax}></div>
@@ -121,9 +107,10 @@ function Home() {
       <br />
       <div className={styles.footerhome}>
         <div>
-          <img
+          <Image
             className={styles.logohome}
-            src="logosenairedonda-removebg-preview.png"
+            src="/logosenairedonda-removebg-preview.png"
+            width={230} height={150} alt="logohome"
           />
         </div>
 
