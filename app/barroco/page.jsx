@@ -94,24 +94,6 @@ function Corpo() {
                 <br></br>
             
 
-                <section className={style.textoV}>
-                    <h1>Vídeo explicativo</h1>
-                </section>
-
-                <section className={style.video}>
-                    <p>
-                        <iframe
-                            width="760"
-                            height="500"
-                            src="\barroco.mp4"
-                            title="Vídeo explicativo sobre o movimento artístico Romantismo"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
-                    </p>
-                </section>
-
 
 
 
