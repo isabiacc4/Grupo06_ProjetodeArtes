@@ -1,0 +1,115 @@
+/*teste*/
+
+.nav {
+    display: flex;
+    background-color: #140152;
+    border: solid white;
+    margin-left: -1%;
+    margin-right: -1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: antiquewhite;
+
+}
+
+.b{
+    background-color: #140152;
+    margin-left: 7%;
+    color: white;
+    border: none;
+
+}
+
+.b:hover{
+    cursor: pointer;
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+  background-color: #25319b;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+.nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    margin-top: 8%;
+    font-size: 141%;
+    text-shadow: 4px 4px #374BF9;
+    font-size: 2rem;
+}
+
+.texto{
+    color:aliceblue;
+    background-color: #140152;
+    margin-right: 12%;
+    margin-left: 11%;
+    border: solid 1px white;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 36px;
+    font-family: serif;
+    font-size: larger;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    margin-left: 28%;
+    width: 45%;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-right: -2%;
+    margin-left: 2%;
+    padding-left: 4%;
+    padding-right: 5%;
+    font-family: serif;
+    font-size: large;
+}
+
+.grupo{
+    font-size:medium;
+}
+
+.baixo{
+    margin-top: 15%;
+}
+
+.t2{
+  margin-left: -24%;
+  margin-top: 10%;
+  color: white;
+  font-size: small;
+  margin-top: 15%;
+}
+
+.nav {
+    background-color: #140152;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    border: 1px solid white;
+}
+
+.navelements {
+    /* color: white; */
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .t2{
+    font-size: 0.7rem;
+    margin-left: -55%;
+    margin-top: 10%;
+  }
+  .navelements {
+    font-size: 0.8rem;
+}
+}
