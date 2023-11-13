@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer" >
             <div>
-                <img className="logo" src="logosenairedonda-removebg-preview.png"/>
+            <Image className="logo" src="/logosenairedonda-removebg-preview.png" width={230} height={150} alt=" "/>
             </div>
 
             <div>
