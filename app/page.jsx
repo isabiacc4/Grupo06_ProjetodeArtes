@@ -5,7 +5,8 @@ import { useUserContext } from "@/context/user";
 import Image from "next/image";
 
 export default function signIn() {
-  const { user } = useUserContext()
+
+  const { user } = useUserContext();
   return (
     <div className={styles.corpo}>
       <section className={styles.login}>
