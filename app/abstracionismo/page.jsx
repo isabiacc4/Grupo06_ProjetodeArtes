@@ -27,7 +27,7 @@ function Corpo() {
     
 
     return (
-        <div>
+        <div className={style.fundo}>
             <Header></Header>
 
             <nav className={style.nav}>
