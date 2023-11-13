@@ -1,6 +1,4 @@
 import Link from "next/link";
-/* oi*/
-
 
 function Header()  {
 
@@ -9,6 +7,7 @@ function Header()  {
               
             
         <div className="header" >
+
         <section>
            <Link href="</" className="icone">🏠</Link> 
             </section>
