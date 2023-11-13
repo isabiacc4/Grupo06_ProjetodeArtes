@@ -55,9 +55,9 @@ function Corpo() {
                 </Link>
             </nav>
 <br/>
-            <div>
+            {/* <div>
         <p className="mensagem">Olá, {user.name}! </p>
-      </div>
+      </div> */}
 
 
 

@@ -5,6 +5,7 @@ import Header from "@/components/header";
 import style  from "@/app/equipe/equipe.module.css";
 import Link from "next/link";
 import { useUserContext } from "@/context/user";
+import Image from "next/image";
 
 function Equipe(){
     const {user} = useUserContext(); 
@@ -63,7 +64,7 @@ function Equipe(){
 
                      <div className="footer" >
             <div>
-                <img className="logo" src="logosenairedonda-removebg-preview.png"></img>
+            <Image className="logo" src="/logosenairedonda-removebg-preview.png" width={230} height={150} alt=" "/>
             </div>
 
             <div>

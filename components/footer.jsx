@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image"
+import Image from "next/image";
 
 
 function Footer() {
@@ -9,7 +9,6 @@ function Footer() {
         <div className="footer" >
             <div>
             <Image className="logo" src="/logosenairedonda-removebg-preview.png" width={230} height={150} alt=" "/>
-
             </div>
 
             <div>
