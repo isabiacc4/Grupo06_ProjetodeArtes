@@ -117,15 +117,12 @@ export default function Impressionismo() {
         <br />
 
         <p>
-          <iframe
-            width="760"
-            height="400"
-            src="\videoimpressionismo.mp4"
-            title="Vídeo explicativo sobre o movimento artístico Impressionismo"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+        <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/_JqqX2cc2OQ?si=3DOFTiZYhZR8el2G" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </p>
       </div>
       <br />
