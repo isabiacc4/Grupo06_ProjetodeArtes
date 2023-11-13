@@ -1,0 +1,321 @@
+.fundo {
+  background-color: #22007c;
+  color: white;
+}
+
+.cabecalho {
+  background-color: #04052e;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  font-size: 2.7rem;
+  overflow: auto;
+  padding: 10%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.campo {
+  display: flex;
+  justify-content: center;
+}
+
+.digitacao {
+  color: #040027;
+  font-size: 15px;
+  width: 50%;
+  padding: 10px;
+  background-color: #dad0fa;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 10px 29px 6px rgba(2, 2, 18, 0.5);
+}
+
+.botao {
+  background-color: #01023f;
+  color: #d4caff;
+  height: auto;
+  width: 2vw;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 2px;
+  margin-left: 1%;
+  font-size: large;
+}
+
+.botao:hover {
+  background-color: #0004ff;
+}
+
+.priparallax {
+  background-image: url("/parallax1.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.segparallax {
+  background-image: url("/parallax2.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.textintro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin: 40px 130px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.text {
+  font-size: 1.3em;
+  font-family: serif;
+}
+
+.blocosnav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navindiv {
+  display: flex;
+  justify-content: center;
+}
+
+.renas {
+  background-image: url("/navrenascimento.jpeg");
+}
+
+.barroco {
+  background-image: url("/navbarroco.jpeg");
+}
+
+.roman {
+  background-image: url("/navromantismo.jpeg");
+}
+
+.neocla {
+  background-image: url("/navneoclassicismo.jpeg");
+}
+
+.rococo {
+  background-image: url("/navrococo.jpeg");
+}
+
+.reali {
+  background-image: url("/navrealismo.jpeg");
+}
+
+.impre {
+  background-image: url("/navimpressionismo.jpeg");
+}
+
+.abstra {
+  background-image: url("/navabstrato.jpeg");
+}
+
+.abstra,
+.impre,
+.reali,
+.rococo,
+.neocla,
+.roman,
+.barroco,
+.renas {
+  height: 400px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  margin: 1% 1%;
+  border-radius: 30px;
+}
+
+.impre:hover,
+.reali:hover,
+.rococo:hover,
+.roman:hover,
+.barroco:hover,
+.renas:hover {
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+}
+
+.neocla:hover,
+.abstra:hover {
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  transform: scale(1.1);
+}
+
+.span {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.spanmaior {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  font-size: 1.5rem;
+  width: 100%;
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.neocla,
+.abstra {
+  width: 1250px;
+}
+
+.segtitulo {
+  margin-left: 30%;
+  margin-top: 1%;
+}
+
+.logohome {
+  width: 52%;
+}
+
+.footerhome {
+  display: flex;
+  justify-content: space-around;
+  background-color: #140152;
+}
+
+.thome {
+  margin-left: -24%;
+  margin-top: 10%;
+  color: white;
+  padding: 2%;
+  font-size: small;
+}
+
+.botaohome {
+  background-color: #22007c;
+  color: aliceblue;
+  align-items: center;
+  list-style: none;
+  padding: 2%;
+  margin: 0% 65% 0% 20%;
+  border-radius: 5px;
+}
+
+.botaohome:hover {
+  background-color: #2c00bc;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+  .cabecalho {
+    border: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-content: center;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .segtitulo {
+    margin-left: 10%;
+  }
+
+  .neocla,
+  .abstra {
+    width: 400px;
+  }
+
+  .spanmaior {
+    margin-top: 50%;
+    font-size: auto;
+
+    margin-right: 30%;
+    font-size: 1.5rem;
+  }
+
+  .botaohome {
+    margin: 0% 82% 8% -5%;
+    font-size: small;
+  }
+
+  .logohome {
+    margin-top: 10%;
+    width: 60%;
+  }
+
+  .thome {
+    font-size: 0.5rem;
+    margin-left: -55%;
+  }
+
+  .textintro {
+    margin: 0px 20px;
+  }
+  .title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .text {
+    margin: 15px 25px;
+    font-size: 1.3rem;
+  }
+
+  .segtitulo {
+    font-size: 1.2rem;
+  }
+
+  .abstra,
+  .impre,
+  .reali,
+  .rococo,
+  .neocla,
+  .roman,
+  .barroco,
+  .renas {
+    width: 90%;
+    height: 90%;
+  }
+
+  .span,
+  .spanmaior {
+    margin-bottom: 50%;
+  }
+
+}

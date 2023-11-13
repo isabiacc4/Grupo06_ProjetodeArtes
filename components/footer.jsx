@@ -1,5 +1,6 @@
 import Link from "next/link";
-/* teste */
+import Image from "next/image"
+
 
 function Footer() {
 
@@ -7,12 +8,17 @@ function Footer() {
     return (
         <div className="footer" >
             <div>
-                <img className="logo" src="logosenairedonda-removebg-preview.png"></img>
+
+                <Image className="logo" src="logosenairedonda-removebg-preview.png"/>
+
             </div>
 
             <div>
                 <div className="t">
+
                     <h1>Desenvolvimento de Sistemas - SENAI </h1>
+
+
                 </div>
                 <br />
                 <div className="botao">
@@ -22,9 +28,6 @@ function Footer() {
                 </div>
             </div>
         </div>
-
-
-
 
 
     )
