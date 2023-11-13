@@ -10,11 +10,11 @@ export default function signIn() {
     <div className={styles.corpo}>
       <section className={styles.login}>
         <div>
-          <Image className="logo" src="/logosenairedonda-removebg-preview.png" width={230} height={150} alt=" " />
+          <Image className="logo" src="/logosenairedonda-removebg-preview.png" width={230} height={150} alt="logo" />
         </div>
 
         <h2 className={styles.saudacao}>Seja bem-vindo(a)!</h2>
-        {/* <p className={styles.logado}>Você está logado</p> */}
+       
         <br />
         <br />
         <h3 className={styles.msglogin}>Olá, {user.name}</h3>
