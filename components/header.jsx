@@ -9,7 +9,7 @@ function Header()  {
         <div className="header" >
 
         <section>
-           <Link href="</" className="icone">🏠</Link> 
+           <Link href="/paginicial" className="icone">🏠</Link> 
             </section>
     
             <section className="titulo">
