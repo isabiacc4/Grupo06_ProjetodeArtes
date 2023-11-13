@@ -1,7 +1,7 @@
 'use client'
 /*teste*/
 
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import style  from "@/app/equipe/equipe.module.css";
 import Link from "next/link";
 import { useUserContext } from "@/context/user";
