@@ -4,7 +4,7 @@ import Login from "@/components/Login";
 import { useUserContext } from "@/context/user";
 import Image from "next/image";
 
-export default function signIn() {
+export default function SignIn() {
 
   const { user } = useUserContext();
   return (
