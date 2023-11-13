@@ -1,5 +1,6 @@
 import { useState } from "react";
 import style from "@/app/abstracionismo/abstracionismo.module.css"
+import Image from "next/image";
 
 
 const ImageGallery = (props) => {

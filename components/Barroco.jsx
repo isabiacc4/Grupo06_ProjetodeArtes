@@ -1,5 +1,7 @@
 import { useState } from "react";
 import style from "@/app/barroco/barroco.module.css"
+import Image from "next/image";
+
 
 
 const ImageGallery = (props) => {
@@ -29,7 +31,7 @@ const ImageGallery = (props) => {
                         className={style.imageThumbnail}
                         onClick={() => openImage(imageUrl)}
                     >
-                        <img src={imageUrl.img} alt={`Image ${index}`} width={300} height={300}/>
+                        <Image src={imageUrl.img} alt={`Image ${index}`} width={300} height={300}/>
 
                         
                     </div>
@@ -44,7 +46,7 @@ const ImageGallery = (props) => {
                         &times;
                     </span>
 
-                    <img src={selectedImage} alt="Selected Image"width={300} height={300}/>
+                    <Image src={selectedImage} alt="Selected Image"width={300} height={300}/>
 
                     <p className="descricao">{selectedText}</p>
 
