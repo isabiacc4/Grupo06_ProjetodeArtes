@@ -1,8 +1,8 @@
 "use client"
 
-import Header from "@/components/Header";
+import Header from "@/components/header";
 import Link from "next/link";
-import Footer from "@/components/Footer";
+import Footer from "@/components/footer";
 import style from "../abstracionismo/abstracionismo.module.css";
 import ImageGallery from "@/components/Abstracionismo";
 import {useUserContext} from "@/context/user";
