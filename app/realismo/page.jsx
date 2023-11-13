@@ -105,15 +105,12 @@ Dessa forma, por conta do amadurecimento da industrialização e da crescente de
 
                 <section className={style.video}>
                     <p>
-                        <iframe
-                            width="760"
-                            height="500"
-                            src="\realismo.mp4"
-                            title="Vídeo explicativo sobre o movimento artístico Realismo"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                    <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/a0ZJRxEC85c?si=AgYiA6PnVvPnMKsE" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </p>
                 </section>
 
