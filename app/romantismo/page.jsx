@@ -108,15 +108,12 @@ function Corpo() {
 
                 <section className={style.video}>
                     <p>
-                        <iframe
-                            width="760"
-                            height="500"
-                            src="\romantismo.mp4"
-                            title="Vídeo explicativo sobre o movimento artístico Romantismo"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                    <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/gnBXAHzzkQo?si=S7P9qH08ugqZTrzj" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </p>
                 </section>
 

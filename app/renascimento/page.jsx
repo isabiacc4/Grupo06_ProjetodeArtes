@@ -117,15 +117,12 @@ Algumas características essenciais do Renascimento são:
 
                 <section className={style.video}>
                     <p>
-                        <iframe
-                            width="760"
-                            height="500"
-                            src="\renascimento.mp4"
-                            title="Vídeo explicativo sobre o movimento artístico Renascimento"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                    <iframe width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/2Yl6wpt_q_8?si=13_XAL5zDYZcYF0i" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </p>
                 </section>
 
