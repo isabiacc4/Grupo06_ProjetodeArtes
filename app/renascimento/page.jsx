@@ -5,7 +5,7 @@ import Header from "@/components/header";
 import style from "@/app/renascimento/renascimento.module.css";
 import Link from "next/link";
 import ImageGallery from "@/components/renascimento";
-import { useUserContext} from "@/context/user";
+import { useUserContext } from "@/context/user";
 
 
 const fotos1 = [
@@ -24,7 +24,7 @@ const fotos2 = [
 
 
 function Corpo() {
-    const {user} = useUserContext();
+    const { user } = useUserContext();
     return (
         <div className={style.fundo}>
             <Header></Header>
@@ -55,11 +55,11 @@ function Corpo() {
                 </Link>
             </nav>
 
-           <br></br>
-           <br></br>
+            <br></br>
+            <br></br>
             <div>
-        <p className="mensagem">Olá, {user.name}! </p>
-      </div>
+                <p className="mensagem">Olá, {user.name}! </p>
+            </div>
 
 
 
@@ -76,15 +76,15 @@ function Corpo() {
 
             <section className={style.texto} align="justify">
                 <p>O Renascimento foi um movimento cultural, artístico e intelectual que floresceu na Europa entre os séculos XIV e XVI e teve um impacto duradouro nas artes, na ciência e na cultura ocidental, marcando o início da transição da Idade Média para a Idade Moderna.
-Algumas características essenciais do Renascimento são:
-<p>Redescoberta da Antiguidade</p>
-<p>Humanismo</p>
-<p>Artes plásticas</p>
-<p>Literatura</p>
-<p>Avanços científicos</p>
-<p>Expansão geográfica</p>
+                    Algumas características essenciais do Renascimento são:
+                    <p>Redescoberta da Antiguidade</p>
+                    <p>Humanismo</p>
+                    <p>Artes plásticas</p>
+                    <p>Literatura</p>
+                    <p>Avanços científicos</p>
+                    <p>Expansão geográfica</p>
 
-</p>
+                </p>
             </section>
             <br />
             <br />
@@ -99,10 +99,10 @@ Algumas características essenciais do Renascimento são:
 
 
 
-                
 
-            
-              
+
+
+
 
                 <ImageGallery fotos={fotos1} />
 
@@ -116,14 +116,12 @@ Algumas características essenciais do Renascimento são:
                 </section>
 
                 <section className={style.video}>
-                    <p>
-                    <iframe width="560" 
-                    height="315" 
-                    src="https://www.youtube.com/embed/2Yl6wpt_q_8?si=13_XAL5zDYZcYF0i" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </p>
+                    <iframe width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/2Yl6wpt_q_8?si=13_XAL5zDYZcYF0i"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
 
 
