@@ -29,7 +29,7 @@ function Corpo() {
     const {user} = useUserContext();
 
     return (
-        <div>
+        <div className={style.fundo}>
             <Header></Header>
 
             <div>

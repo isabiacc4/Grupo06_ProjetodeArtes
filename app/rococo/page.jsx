@@ -26,7 +26,7 @@ const fotos2 = [
 function Corpo() {
     const { user } = useUserContext();
     return (
-        <div>
+        <div className={style.fundo}>
             <Header></Header>
 
             <nav className={style.nav}>

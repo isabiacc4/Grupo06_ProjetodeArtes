@@ -42,7 +42,7 @@ export default function Impressionismo() {
   ];
 
   return (
-    <div>
+    <div className={style.fundo}>
       <Header />
       <nav className={style.nav}>
         <Link href="/renascimento" className={style.navelements}>
